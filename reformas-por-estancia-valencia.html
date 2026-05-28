@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reformas por Estancia en Valencia | Cocina, Baño, Piso y Más | P&M</title>
+  <meta name="description" content="Empresa de reformas por estancia en Valencia. Cocinas, baños, pisos, locales comerciales, terrazas y más. Presupuesto sin compromiso. Construcción y Reformas P&M." />
+  <link rel="canonical" href="https://reformaspym.es/reformas/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-gold': '#B89A6F',
+            'brand-gold-dark': '#9A7D56',
+            'brand-dark': '#111827',
+            'brand-dark2': '#30302E',
+            'brand-light': '#FCFBF8',
+            'brand-light2': '#FAF9F5',
+          },
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+            montserrat: ['Montserrat', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Schema: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://reformaspym.es/" },
+      { "@type": "ListItem", "position": 2, "name": "Reformas por estancia", "item": "https://reformaspym.es/reformas/" }
+    ]
+  }
+  </script>
+  <!-- Schema: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Construcción y Reformas P&M",
+    "url": "https://reformaspym.es",
+    "telephone": "+34613281872",
+    "email": "reformaspymvalencia@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Valencia", "addressCountry": "ES" },
+    "areaServed": "Valencia",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Reformas por estancia en Valencia",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reforma de cocina en Valencia" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reforma de baño en Valencia" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reforma de piso en Valencia" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reforma de local comercial en Valencia" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cambio de bañera por ducha en Valencia" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Reforma de terrazas y suelos en Valencia" } }
+      ]
+    }
+  }
+  </script>
+  <!-- Schema: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "¿En qué zonas de Valencia realizáis reformas?", "acceptedAnswer": { "@type": "Answer", "text": "Trabajamos en Valencia capital y en municipios del área metropolitana. Nos desplazamos a tu domicilio o local para la visita de valoración sin coste." } },
+      { "@type": "Question", "name": "¿Cuánto cuesta una reforma en Valencia?", "acceptedAnswer": { "@type": "Answer", "text": "El coste depende del tipo de reforma, las dimensiones del espacio y los materiales elegidos. Una reforma de baño puede partir de 4.000 €, una cocina desde 6.000 € y una reforma integral de piso desde 15.000 €. Damos presupuesto detallado y cerrado antes de empezar." } },
+      { "@type": "Question", "name": "¿Hacéis reformas integrales o solo por estancias?", "acceptedAnswer": { "@type": "Answer", "text": "Hacemos las dos cosas. Podemos reformar una estancia concreta (cocina, baño, salón) o llevar a cabo una reforma integral de toda la vivienda. También realizamos reformas de locales comerciales." } },
+      { "@type": "Question", "name": "¿Puedo pedir presupuesto sin compromiso?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. El presupuesto es siempre gratuito y sin compromiso. Visitamos el espacio, tomamos medidas y te entregamos un desglose detallado con materiales, mano de obra y plazos." } }
+    ]
+  }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .font-montserrat { font-family: 'Montserrat', sans-serif; }
+    .hero-bg {
+      background: linear-gradient(135deg, #1a1a18 0%, #2d2218 60%, #1a1a18 100%);
+      position: relative;
+    }
+    .hero-bg::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url('https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1600&q=80') center/cover no-repeat;
+      opacity: 0.22;
+      z-index: 0;
+    }
+    .hero-content { position: relative; z-index: 1; }
+    .nav-scrolled { background: rgba(17,24,39,0.97) !important; box-shadow: 0 2px 20px rgba(0,0,0,0.3); }
+    .service-card {
+      transition: transform 0.25s, box-shadow 0.25s;
+      cursor: pointer;
+    }
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.13);
+    }
+    .service-card .card-img-wrap {
+      overflow: hidden;
+      border-radius: 16px 16px 0 0;
+    }
+    .service-card .card-img {
+      transition: transform 0.4s;
+    }
+    .service-card:hover .card-img {
+      transform: scale(1.05);
+    }
+    .faq-item details summary { cursor: pointer; list-style: none; }
+    .faq-item details summary::-webkit-details-marker { display: none; }
+    .faq-item details[open] summary .faq-icon { transform: rotate(45deg); }
+    .faq-icon { transition: transform 0.2s; }
+    .stat-number { color: #B89A6F; }
+    /* CTA con foto */
+    .cta-photo-bg {
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-photo-bg::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600&q=80') center/cover no-repeat;
+      z-index: 0;
+    }
+    .cta-photo-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(17,24,39,0.78);
+      z-index: 1;
+    }
+    .cta-photo-content { position: relative; z-index: 2; }
+    /* Mobile: stack cards en 1 columna */
+    @media (max-width: 640px) {
+      .service-card { border-radius: 16px; }
+      .card-img-wrap { border-radius: 16px 16px 0 0; }
+    }
+  </style>
+</head>
+<body class="font-inter text-gray-800 bg-white">
+
+  <!-- ═══ NAV ═══ -->
+  <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-5" style="background:transparent">
+    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+      <a href="https://reformaspym.es/" class="flex items-center gap-2">
+        <span class="font-montserrat font-black text-xl text-white tracking-tight leading-tight">CONSTRUCCIÓN Y<br><span class="text-brand-gold">REFORMAS P&M</span></span>
+      </a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="https://reformaspym.es/#quienes-somos" class="text-sm font-medium text-white hover:text-brand-gold transition-colors">Empresa</a>
+        <a href="https://reformaspym.es/#servicios" class="text-sm font-medium text-white hover:text-brand-gold transition-colors">Servicios</a>
+        <a href="https://reformaspym.es/#proyectos" class="text-sm font-medium text-white hover:text-brand-gold transition-colors">Proyectos</a>
+        <a href="https://reformaspym.es/#opiniones" class="text-sm font-medium text-white hover:text-brand-gold transition-colors">Opiniones</a>
+        <a href="#contacto" class="ml-4 px-6 py-2 rounded-full border-2 border-white text-white text-sm font-bold hover:bg-white hover:text-brand-dark transition-all">Contacto</a>
+        <a href="#contacto" class="px-6 py-2 rounded-full bg-brand-gold hover:bg-brand-gold-dark text-white text-sm font-extrabold transition-all uppercase tracking-wider">Presupuesto</a>
+      </div>
+      <!-- Mobile menu button -->
+      <button id="menuBtn" class="md:hidden text-white p-2" onclick="document.getElementById('mobileMenu').classList.toggle('hidden')">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-brand-dark px-6 py-4 flex flex-col gap-4">
+      <a href="https://reformaspym.es/#quienes-somos" class="text-white text-sm font-medium hover:text-brand-gold">Empresa</a>
+      <a href="https://reformaspym.es/#servicios" class="text-white text-sm font-medium hover:text-brand-gold">Servicios</a>
+      <a href="https://reformaspym.es/#proyectos" class="text-white text-sm font-medium hover:text-brand-gold">Proyectos</a>
+      <a href="#contacto" class="text-white text-sm font-bold hover:text-brand-gold">Contacto</a>
+      <a href="#contacto" class="inline-block px-6 py-3 rounded-full bg-brand-gold text-white text-sm font-extrabold text-center uppercase tracking-wider">Pide presupuesto</a>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero-bg min-h-[85vh] flex items-center justify-center pt-32 pb-24 md:pt-36 md:pb-32">
+    <div class="hero-content max-w-4xl mx-auto px-6 text-center">
+      <p class="text-xs font-bold uppercase tracking-widest text-brand-gold font-montserrat mb-6">EMPRESA DE REFORMAS EN VALENCIA</p>
+      <h1 class="font-montserrat font-black text-[2.8rem] sm:text-6xl md:text-7xl text-white uppercase tracking-tight leading-none mb-6">
+        Reformas<br><span class="text-brand-gold">por Estancia</span><br>en Valencia
+      </h1>
+      <p class="text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed">
+        Reformamos cocinas, baños, pisos completos y locales comerciales en Valencia. Presupuesto claro, plazos reales y un equipo que responde.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#contacto" class="px-10 py-[18px] bg-brand-gold hover:bg-brand-gold-dark text-white rounded-full font-extrabold transition-all transform hover:scale-105 shadow-2xl uppercase tracking-wider text-sm">
+          PIDE PRESUPUESTO GRATIS
+        </a>
+        <a href="https://wa.me/34613281872?text=Hola,%20quiero%20información%20sobre%20reformas%20en%20Valencia" target="_blank" class="px-10 py-[18px] border-2 border-white text-white rounded-full font-extrabold hover:bg-white hover:text-brand-dark transition-all text-sm uppercase tracking-wider">
+          ESCRÍBENOS POR WHATSAPP
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ BREADCRUMB ═══ -->
+  <div class="bg-white border-b border-gray-100 py-3">
+    <div class="max-w-7xl mx-auto px-6">
+      <nav class="text-sm text-gray-500">
+        <a href="https://reformaspym.es/" class="hover:text-brand-gold">Inicio</a>
+        <span class="mx-2">›</span>
+        <span class="text-gray-800 font-medium">Reformas por estancia</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- ═══ INTRO ═══ -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-16 items-center">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-widest text-brand-gold font-montserrat mb-4">¿QUÉ REFORMAMOS?</p>
+          <h2 class="font-montserrat font-bold text-4xl md:text-5xl text-gray-900 mb-6 leading-tight">
+            Reformas a medida en Valencia, estancia por estancia
+          </h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-6">
+            En Construcción y Reformas P&M trabajamos en Valencia capital y municipios cercanos. Podemos reformar una sola estancia —la cocina, el baño, el salón— o hacer una reforma integral de toda la vivienda. También ejecutamos reformas de locales comerciales y espacios de trabajo.
+          </p>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">
+            En cada proyecto te damos un presupuesto detallado antes de empezar, con materiales y mano de obra desglosados. Sin costes ocultos. Sin sorpresas cuando la obra ya está en marcha.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="#contacto" class="inline-block px-8 py-4 bg-brand-gold hover:bg-brand-gold-dark text-white rounded-full font-extrabold text-sm uppercase tracking-wider transition-all transform hover:scale-105 shadow-lg">
+              SOLICITAR PRESUPUESTO
+            </a>
+            <a href="tel:+34613281872" class="inline-flex items-center gap-2 px-8 py-4 border-2 border-brand-gold text-brand-gold rounded-full font-bold text-sm hover:bg-brand-gold hover:text-white transition-all">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              613 28 18 72
+            </a>
+          </div>
+        </div>
+        <div class="relative mt-10 md:mt-0 rounded-3xl overflow-hidden shadow-2xl" style="min-height:460px;">
+          <img
+            src="https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?w=1000&q=85"
+            alt="Reforma de cocina y baño en Valencia — resultado final"
+            class="w-full h-full object-cover absolute inset-0"
+            style="min-height:460px;"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CARDS DE SERVICIOS ═══ -->
+  <section id="reformas" class="py-24 bg-brand-light2">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="text-xs font-bold uppercase tracking-widest text-brand-gold font-montserrat mb-4">ELIGE TU REFORMA</p>
+        <h2 class="font-montserrat font-bold text-4xl md:text-5xl text-gray-900 mb-5 leading-tight">
+          ¿Qué parte de tu casa quieres renovar?
+        </h2>
+        <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+          Selecciona la estancia o el tipo de reforma para ver todos los detalles: qué incluye, cuánto tiempo lleva y cuánto cuesta.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+
+        <!-- Card 1: Reforma de cocina -->
+        <a href="https://reformaspym.es/reformas/cocinas/" class="service-card bg-white rounded-2xl overflow-hidden shadow-sm block group">
+          <div class="card-img-wrap h-64 sm:h-72">
+            <img
+              src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
+              alt="Reforma de cocina en Valencia"
+              class="card-img w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div class="p-7">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+              </div>
+              <h3 class="font-montserrat font-bold text-xl text-gray-900 group-hover:text-brand-gold transition-colors">Reforma de Cocina</h3>
+            </div>
+            <p class="text-gray-500 text-sm leading-relaxed mb-5">Renovación completa de cocina en Valencia: distribución, fontanería, electricidad, alicatado y acabados a tu gusto.</p>
+            <span class="inline-flex items-center gap-1 text-brand-gold font-bold text-sm group-hover:gap-2 transition-all">
+              Ver más detalles
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- Card 2: Reforma de baño -->
+        <a href="https://reformaspym.es/reformas/banos/" class="service-card bg-white rounded-2xl overflow-hidden shadow-sm block group">
+          <div class="card-img-wrap h-64 sm:h-72">
+            <img
+              src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80"
+              alt="Reforma de baño en Valencia"
+              class="card-img w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div class="p-7">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"/></svg>
+              </div>
+              <h3 class="font-montserrat font-bold text-xl text-gray-900 group-hover:text-brand-gold transition-colors">Reforma de Baño</h3>
+            </div>
+            <p class="text-gray-500 text-sm leading-relaxed mb-5">Reformas de baño en Valencia con gestión integral: alicatado, sanitarios, instalaciones y acabados. Precio claro desde el inicio.</p>
+            <span class="inline-flex items-center gap-1 text-brand-gold font-bold text-sm group-hover:gap-2 transition-all">
+              Ver más detalles
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- Card 3: Reforma de piso -->
+        <a href="https://reformaspym.es/reformas/piso/" class="service-card bg-white rounded-2xl overflow-hidden shadow-sm block group">
+          <div class="card-img-wrap h-64 sm:h-72">
+            <img
+              src="https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80"
+              alt="Reforma de piso en Valencia"
+              class="card-img w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div class="p-7">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+              </div>
+              <h3 class="font-montserrat font-bold text-xl text-gray-900 group-hover:text-brand-gold transition-colors">Reforma de Piso</h3>
+            </div>
+            <p class="text-gray-500 text-sm leading-relaxed mb-5">Reforma integral de pisos en Valencia. Desde la distribución hasta los acabados, con todos los gremios coordinados por nosotros.</p>
+            <span class="inline-flex items-center gap-1 text-brand-gold font-bold text-sm group-hover:gap-2 transition-all">
+              Ver más detalles
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- Card 4: Reforma de local comercial -->
+        <a href="https://reformaspym.es/reformas/local-comercial/" class="service-card bg-white rounded-2xl overflow-hidden shadow-sm block group">
+          <div class="card-img-wrap h-64 sm:h-72">
+            <img
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+              alt="Reforma de local comercial en Valencia"
+              class="card-img w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div class="p-7">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+              </div>
+              <h3 class="font-montserrat font-bold text-xl text-gray-900 group-hover:text-brand-gold transition-colors">Reforma de Local Comercial</h3>
+            </div>
+            <p class="text-gray-500 text-sm leading-relaxed mb-5">Acondicionamos y reformamos locales comerciales en Valencia. Cumplimiento normativo, plazos ajustados y resultado profesional.</p>
+            <span class="inline-flex items-center gap-1 text-brand-gold font-bold text-sm group-hover:gap-2 transition-all">
+              Ver más detalles
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- Card 5: Cambio de bañera por ducha -->
+        <a href="https://reformaspym.es/reformas/cambio-banera-ducha/" class="service-card bg-white rounded-2xl overflow-hidden shadow-sm block group">
+          <div class="card-img-wrap h-64 sm:h-72">
+            <img
+              src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=800&q=80"
+              alt="Cambio de bañera por ducha en Valencia"
+              class="card-img w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div class="p-7">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+              </div>
+              <h3 class="font-montserrat font-bold text-xl text-gray-900 group-hover:text-brand-gold transition-colors">Cambio de Bañera por Ducha</h3>
+            </div>
+            <p class="text-gray-500 text-sm leading-relaxed mb-5">Sustituimos la bañera por una ducha a ras de suelo en Valencia. Rápido, limpio y sin obras grandes. Resultado en pocos días.</p>
+            <span class="inline-flex items-center gap-1 text-brand-gold font-bold text-sm group-hover:gap-2 transition-all">
+              Ver más detalles
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- Card 6: Reformas de terrazas y suelos -->
+        <a href="https://reformaspym.es/reformas/terrazas-suelos/" class="service-card bg-white rounded-2xl overflow-hidden shadow-sm block group">
+          <div class="card-img-wrap h-64 sm:h-72">
+            <img
+              src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80"
+              alt="Reforma de terrazas y suelos en Valencia"
+              class="card-img w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div class="p-7">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 rounded-full bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l9-9 9 9M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9"/></svg>
+              </div>
+              <h3 class="font-montserrat font-bold text-xl text-gray-900 group-hover:text-brand-gold transition-colors">Terrazas y Suelos</h3>
+            </div>
+            <p class="text-gray-500 text-sm leading-relaxed mb-5">Renovamos terrazas, balcones y suelos en Valencia. Gres porcelánico, tarima y otros materiales con instalación profesional.</p>
+            <span class="inline-flex items-center gap-1 text-brand-gold font-bold text-sm group-hover:gap-2 transition-all">
+              Ver más detalles
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+
+      </div><!-- /grid -->
+    </div>
+  </section>
+
+  <!-- ═══ POR QUÉ ELEGIRNOS ═══ -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="text-xs font-bold uppercase tracking-widest text-brand-gold font-montserrat mb-4">POR QUÉ P&M</p>
+        <h2 class="font-montserrat font-bold text-4xl md:text-5xl text-gray-900 leading-tight">
+          Lo que distingue una buena reforma<br>de una que sale cara
+        </h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-brand-light rounded-2xl p-8">
+          <div class="w-12 h-12 rounded-full bg-brand-gold/15 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </div>
+          <h3 class="font-montserrat font-bold text-xl text-gray-900 mb-3">Presupuesto cerrado</h3>
+          <p class="text-gray-600 leading-relaxed">El precio que acordamos es el que pagas. Detallamos cada partida: materiales, mano de obra y gestión. Sin extras sorpresa al finalizar.</p>
+        </div>
+        <div class="bg-brand-light rounded-2xl p-8">
+          <div class="w-12 h-12 rounded-full bg-brand-gold/15 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h3 class="font-montserrat font-bold text-xl text-gray-900 mb-3">Equipo propio</h3>
+          <p class="text-gray-600 leading-relaxed">No subcontratamos la obra a terceros. Nuestro equipo ejecuta todos los trabajos: albañilería, fontanería, electricidad, pladur y pintura.</p>
+        </div>
+        <div class="bg-brand-light rounded-2xl p-8">
+          <div class="w-12 h-12 rounded-full bg-brand-gold/15 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+          </div>
+          <h3 class="font-montserrat font-bold text-xl text-gray-900 mb-3">Comunicación directa</h3>
+          <p class="text-gray-600 leading-relaxed">Tienes contacto directo con quien dirige la obra. Te informamos del avance, avisamos si hay cualquier imprevisto y tomamos decisiones contigo.</p>
+        </div>
+        <div class="bg-brand-light rounded-2xl p-8">
+          <div class="w-12 h-12 rounded-full bg-brand-gold/15 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <h3 class="font-montserrat font-bold text-xl text-gray-900 mb-3">Plazos reales</h3>
+          <p class="text-gray-600 leading-relaxed">Pactamos una fecha de finalización antes de empezar y la cumplimos. Si hay algún cambio, te avisamos con antelación y lo justificamos.</p>
+        </div>
+        <div class="bg-brand-light rounded-2xl p-8">
+          <div class="w-12 h-12 rounded-full bg-brand-gold/15 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+          </div>
+          <h3 class="font-montserrat font-bold text-xl text-gray-900 mb-3">Garantía en todos los trabajos</h3>
+          <p class="text-gray-600 leading-relaxed">Todos nuestros trabajos tienen garantía. Si algo no está correcto una vez entregada la obra, volvemos y lo arreglamos sin coste adicional.</p>
+        </div>
+        <div class="bg-brand-light rounded-2xl p-8">
+          <div class="w-12 h-12 rounded-full bg-brand-gold/15 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h3 class="font-montserrat font-bold text-xl text-gray-900 mb-3">Valencia y alrededores</h3>
+          <p class="text-gray-600 leading-relaxed">Trabajamos en Valencia capital y municipios cercanos. La visita de valoración es gratuita y sin compromiso. Llámanos o escríbenos para concertar cita.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ BANNER CTA ═══ -->
+  <section class="cta-photo-bg py-16 md:py-20">
+    <div class="cta-photo-content max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+        <div class="text-left">
+          <p class="text-xs font-bold uppercase tracking-widest text-brand-gold font-montserrat mb-3">SIN COMPROMISO</p>
+          <h2 class="font-montserrat font-black text-3xl md:text-4xl lg:text-5xl text-white uppercase leading-tight">
+            ¿Tienes un proyecto <span class="text-brand-gold">en mente?</span>
+          </h2>
+          <p class="text-white/75 text-base md:text-lg mt-4 max-w-xl leading-relaxed">
+            Visitamos el espacio, tomamos medidas y te damos un presupuesto detallado sin coste.
+          </p>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+          <a href="#contacto" class="px-8 py-4 bg-brand-gold hover:bg-brand-gold-dark text-white rounded-full font-extrabold transition-all transform hover:scale-105 shadow-xl uppercase tracking-wider text-sm whitespace-nowrap">
+            PEDIR PRESUPUESTO
+          </a>
+          <a href="https://wa.me/34613281872?text=Hola,%20quiero%20información%20sobre%20una%20reforma%20en%20Valencia" target="_blank" class="px-8 py-4 border-2 border-white text-white rounded-full font-extrabold hover:bg-white hover:text-brand-dark transition-all text-sm uppercase tracking-wider whitespace-nowrap">
+            WHATSAPP DIRECTO
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FAQ ═══ -->
+  <section class="py-24 bg-brand-light2">
+    <div class="max-w-3xl mx-auto px-6">
+      <div class="text-center mb-14">
+        <p class="text-xs font-bold uppercase tracking-widest text-brand-gold font-montserrat mb-4">PREGUNTAS FRECUENTES</p>
+        <h2 class="font-montserrat font-bold text-4xl text-gray-900">Lo que suelen preguntarnos</h2>
+      </div>
+      <div class="space-y-3 faq-item">
+        <details class="bg-white rounded-2xl overflow-hidden shadow-sm">
+          <summary class="flex items-center justify-between px-7 py-6 font-semibold text-gray-900 text-base">
+            ¿En qué zonas de Valencia realizáis reformas?
+            <span class="faq-icon ml-4 flex-shrink-0 w-6 h-6 rounded-full bg-brand-gold/10 flex items-center justify-center text-brand-gold font-bold text-lg leading-none">+</span>
+          </summary>
+          <div class="px-7 pb-6 text-gray-600 leading-relaxed">
+            Trabajamos en Valencia capital y en municipios del área metropolitana como Paterna, Burjassot, Mislata, Xirivella, Torrent, Alfafar, Sedaví y otros. Nos desplazamos a tu domicilio o local para la visita de valoración sin coste.
+          </div>
+        </details>
+        <details class="bg-white rounded-2xl overflow-hidden shadow-sm">
+          <summary class="flex items-center justify-between px-7 py-6 font-semibold text-gray-900 text-base">
+            ¿Cuánto cuesta una reforma en Valencia?
+            <span class="faq-icon ml-4 flex-shrink-0 w-6 h-6 rounded-full bg-brand-gold/10 flex items-center justify-center text-brand-gold font-bold text-lg leading-none">+</span>
+          </summary>
+          <div class="px-7 pb-6 text-gray-600 leading-relaxed">
+            El coste varía según el tipo de reforma, las dimensiones y los materiales elegidos. Una reforma de baño puede partir de 4.000 €, una cocina desde 6.000 € y una reforma integral de piso desde 15.000 €. Siempre damos presupuesto detallado y cerrado antes de empezar.
+          </div>
+        </details>
+        <details class="bg-white rounded-2xl overflow-hidden shadow-sm">
+          <summary class="flex items-center justify-between px-7 py-6 font-semibold text-gray-900 text-base">
+            ¿Hacéis reformas integrales o solo por estancias?
+            <span class="faq-icon ml-4 flex-shrink-0 w-6 h-6 rounded-full bg-brand-gold/10 flex items-center justify-center text-brand-gold font-bold text-lg leading-none">+</span>
+          </summary>
+          <div class="px-7 pb-6 text-gray-600 leading-relaxed">
+            Hacemos las dos cosas. Podemos reformar una estancia concreta —cocina, baño, salón, dormitorio— o llevar a cabo una reforma integral de toda la vivienda. También realizamos reformas de locales comerciales y espacios de trabajo.
+          </div>
+        </details>
+        <details class="bg-white rounded-2xl overflow-hidden shadow-sm">
+          <summary class="flex items-center justify-between px-7 py-6 font-semibold text-gray-900 text-base">
+            ¿Puedo pedir presupuesto sin compromiso?
+            <span class="faq-icon ml-4 flex-shrink-0 w-6 h-6 rounded-full bg-brand-gold/10 flex items-center justify-center text-brand-gold font-bold text-lg leading-none">+</span>
+          </summary>
+          <div class="px-7 pb-6 text-gray-600 leading-relaxed">
+            Sí. El presupuesto es siempre gratuito y sin compromiso. Visitamos el espacio, tomamos medidas y te entregamos un desglose detallado con materiales, mano de obra y plazos estimados.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACTO ═══ -->
+  <section id="contacto" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-16 items-start">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-widest text-brand-gold font-montserrat mb-4">CONTACTO</p>
+          <h2 class="font-montserrat font-bold text-4xl md:text-5xl text-gray-900 mb-6 leading-tight">
+            Pide tu presupuesto<br>de reforma en Valencia
+          </h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-10">
+            Cuéntanos qué tienes pensado. Contacta por teléfono, WhatsApp o mediante el formulario y te respondemos en menos de 24 horas.
+          </p>
+          <div class="space-y-5">
+            <a href="tel:+34613281872" class="flex items-center gap-4 p-5 bg-brand-light rounded-2xl hover:shadow-md transition-shadow group">
+              <div class="w-12 h-12 rounded-full bg-brand-gold flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              </div>
+              <div>
+                <p class="text-xs text-gray-500 font-medium uppercase tracking-wider mb-1">Llámanos</p>
+                <p class="font-bold text-gray-900 text-lg group-hover:text-brand-gold transition-colors">613 28 18 72</p>
+              </div>
+            </a>
+            <a href="mailto:reformaspymvalencia@gmail.com" class="flex items-center gap-4 p-5 bg-brand-light rounded-2xl hover:shadow-md transition-shadow group">
+              <div class="w-12 h-12 rounded-full bg-brand-gold flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div>
+                <p class="text-xs text-gray-500 font-medium uppercase tracking-wider mb-1">Email</p>
+                <p class="font-bold text-gray-900 group-hover:text-brand-gold transition-colors">reformaspymvalencia@gmail.com</p>
+              </div>
+            </a>
+            <a href="https://wa.me/34613281872?text=Hola,%20quiero%20información%20sobre%20una%20reforma%20en%20Valencia" target="_blank" class="flex items-center gap-4 p-5 bg-[#25D366]/10 rounded-2xl hover:shadow-md transition-shadow group">
+              <div class="w-12 h-12 rounded-full bg-[#25D366] flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </div>
+              <div>
+                <p class="text-xs text-gray-500 font-medium uppercase tracking-wider mb-1">WhatsApp</p>
+                <p class="font-bold text-gray-900 group-hover:text-[#25D366] transition-colors">Escríbenos directamente</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Formulario -->
+        <div class="bg-brand-light rounded-3xl p-8 md:p-10">
+          <h3 class="font-montserrat font-bold text-2xl text-gray-900 mb-7">Solicita presupuesto gratis</h3>
+          <form class="space-y-5" onsubmit="return false;">
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Nombre</label>
+                <input type="text" placeholder="Tu nombre" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-brand-gold text-sm bg-white" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Teléfono</label>
+                <input type="tel" placeholder="6XX XXX XXX" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-brand-gold text-sm bg-white" />
+              </div>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Tipo de reforma</label>
+              <select class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-brand-gold text-sm bg-white text-gray-700">
+                <option value="">Selecciona una opción</option>
+                <option>Reforma de cocina</option>
+                <option>Reforma de baño</option>
+                <option>Reforma de piso completo</option>
+                <option>Reforma de local comercial</option>
+                <option>Cambio de bañera por ducha</option>
+                <option>Terraza o suelos</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Cuéntanos más</label>
+              <textarea rows="4" placeholder="Describe brevemente qué quieres hacer, en qué zona de Valencia y si tienes alguna preferencia de materiales o presupuesto..." class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-brand-gold text-sm bg-white resize-none"></textarea>
+            </div>
+            <button type="submit" class="w-full py-4 bg-brand-gold hover:bg-brand-gold-dark text-white rounded-full font-extrabold text-sm uppercase tracking-wider transition-all transform hover:scale-[1.02] shadow-lg">
+              ENVIAR SOLICITUD
+            </button>
+            <p class="text-xs text-gray-400 text-center">Te respondemos en menos de 24 horas. Sin compromiso.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="bg-brand-dark2 py-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-3 gap-10 mb-10">
+        <div>
+          <span class="font-montserrat font-black text-lg text-white tracking-tight leading-tight block mb-4">CONSTRUCCIÓN Y<br><span class="text-brand-gold">REFORMAS P&M</span></span>
+          <p class="text-white/60 text-sm leading-relaxed">Empresa de reformas en Valencia. Cocinas, baños, pisos, locales y más. Presupuesto claro, trabajo bien hecho.</p>
+        </div>
+        <div>
+          <p class="text-white/40 text-xs uppercase tracking-widest font-bold mb-4">Reformas</p>
+          <ul class="space-y-2">
+            <li><a href="https://reformaspym.es/reformas/cocinas/" class="text-white/70 text-sm hover:text-brand-gold transition-colors">Reforma de cocina</a></li>
+            <li><a href="https://reformaspym.es/reformas/banos/" class="text-white/70 text-sm hover:text-brand-gold transition-colors">Reforma de baño</a></li>
+            <li><a href="https://reformaspym.es/reformas/piso/" class="text-white/70 text-sm hover:text-brand-gold transition-colors">Reforma de piso</a></li>
+            <li><a href="https://reformaspym.es/reformas/local-comercial/" class="text-white/70 text-sm hover:text-brand-gold transition-colors">Reforma de local comercial</a></li>
+            <li><a href="https://reformaspym.es/reformas/cambio-banera-ducha/" class="text-white/70 text-sm hover:text-brand-gold transition-colors">Cambio bañera por ducha</a></li>
+            <li><a href="https://reformaspym.es/reformas/terrazas-suelos/" class="text-white/70 text-sm hover:text-brand-gold transition-colors">Terrazas y suelos</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-white/40 text-xs uppercase tracking-widest font-bold mb-4">Contacto</p>
+          <ul class="space-y-2">
+            <li><a href="tel:+34613281872" class="text-white/70 text-sm hover:text-brand-gold transition-colors">613 28 18 72</a></li>
+            <li><a href="mailto:reformaspymvalencia@gmail.com" class="text-white/70 text-sm hover:text-brand-gold transition-colors">reformaspymvalencia@gmail.com</a></li>
+            <li><span class="text-white/70 text-sm">Valencia y alrededores</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-6 text-center">
+        <p class="text-white/40 text-xs">© 2025 Construcción y Reformas P&M · Valencia · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══ WHATSAPP FLOTANTE ═══ -->
+  <a href="https://wa.me/34613281872?text=Hola,%20quiero%20información%20sobre%20una%20reforma%20en%20Valencia"
+     target="_blank"
+     class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full shadow-2xl flex items-center justify-center transition-transform hover:scale-110"
+     style="background-color:#25D366"
+     aria-label="Contactar por WhatsApp">
+    <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- ═══ SCROLL NAV JS ═══ -->
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 60) {
+        navbar.style.background = 'rgba(17,24,39,0.97)';
+        navbar.style.boxShadow = '0 2px 20px rgba(0,0,0,0.3)';
+        navbar.style.paddingTop = '16px';
+        navbar.style.paddingBottom = '16px';
+      } else {
+        navbar.style.background = 'transparent';
+        navbar.style.boxShadow = 'none';
+        navbar.style.paddingTop = '20px';
+        navbar.style.paddingBottom = '20px';
+      }
+    });
+  </script>
+
+</body>
+</html>
