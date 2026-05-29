@@ -10,6 +10,8 @@
     { "source": "/reformas/cambio-banera-ducha", "destination": "/cambio-banera-ducha-valencia.html" },
     { "source": "/reformas/cambio-banera-ducha/", "destination": "/cambio-banera-ducha-valencia.html" },
     { "source": "/reformas/terrazas-suelos", "destination": "/reforma-terrazas-suelos-valencia.html" },
-    { "source": "/reformas/terrazas-suelos/", "destination": "/reforma-terrazas-suelos-valencia.html" }
+    { "source": "/reformas/terrazas-suelos/", "destination": "/reforma-terrazas-suelos-valencia.html" },
+    { "source": "/servicios", "destination": "/servicios-tecnicos-obra-valencia.html" },
+    { "source": "/servicios/", "destination": "/servicios-tecnicos-obra-valencia.html" }
   ]
 }
