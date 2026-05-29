@@ -1,0 +1,15 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/reformas", "destination": "/reformas-por-estancia-valencia.html" },
+    { "source": "/reformas/", "destination": "/reformas-por-estancia-valencia.html" },
+    { "source": "/reformas/cocinas", "destination": "/reforma-cocina-valencia.html" },
+    { "source": "/reformas/cocinas/", "destination": "/reforma-cocina-valencia.html" },
+    { "source": "/reformas/banos", "destination": "/reforma-bano-valencia.html" },
+    { "source": "/reformas/banos/", "destination": "/reforma-bano-valencia.html" },
+    { "source": "/reformas/cambio-banera-ducha", "destination": "/cambio-banera-ducha-valencia.html" },
+    { "source": "/reformas/cambio-banera-ducha/", "destination": "/cambio-banera-ducha-valencia.html" },
+    { "source": "/reformas/terrazas-suelos", "destination": "/reforma-terrazas-suelos-valencia.html" },
+    { "source": "/reformas/terrazas-suelos/", "destination": "/reforma-terrazas-suelos-valencia.html" }
+  ]
+}
