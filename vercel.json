@@ -12,6 +12,18 @@
     { "source": "/reformas/terrazas-suelos", "destination": "/reforma-terrazas-suelos-valencia.html" },
     { "source": "/reformas/terrazas-suelos/", "destination": "/reforma-terrazas-suelos-valencia.html" },
     { "source": "/servicios", "destination": "/servicios-tecnicos-obra-valencia.html" },
-    { "source": "/servicios/", "destination": "/servicios-tecnicos-obra-valencia.html" }
+    { "source": "/servicios/", "destination": "/servicios-tecnicos-obra-valencia.html" },
+    { "source": "/servicios/albanileria", "destination": "/albanileria-valencia.html" },
+    { "source": "/servicios/albanileria/", "destination": "/albanileria-valencia.html" },
+    { "source": "/servicios/fontaneria", "destination": "/fontaneria-valencia.html" },
+    { "source": "/servicios/fontaneria/", "destination": "/fontaneria-valencia.html" },
+    { "source": "/servicios/parte-electrica", "destination": "/parte-electrica-valencia.html" },
+    { "source": "/servicios/parte-electrica/", "destination": "/parte-electrica-valencia.html" },
+    { "source": "/servicios/pladur", "destination": "/pladur-valencia.html" },
+    { "source": "/servicios/pladur/", "destination": "/pladur-valencia.html" },
+    { "source": "/servicios/pinturas", "destination": "/pintura-valencia.html" },
+    { "source": "/servicios/pinturas/", "destination": "/pintura-valencia.html" },
+    { "source": "/servicios/herreria", "destination": "/herreria-valencia.html" },
+    { "source": "/servicios/herreria/", "destination": "/herreria-valencia.html" }
   ]
 }
